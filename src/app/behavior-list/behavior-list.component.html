@@ -1,0 +1,8 @@
+<div class="list">
+    <h1>Behavior Subject</h1>
+    <pre>Current value in service: {{ subject | async }}</pre>
+    <button (click)="onSub()">Get Behavior Subject Values</button>
+    <ul>
+        <li *ngFor="let item of items">{{item}}</li>
+    </ul>
+</div>
